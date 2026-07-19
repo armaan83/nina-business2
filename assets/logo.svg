@@ -10,19 +10,29 @@
     </linearGradient>
   </defs>
 
+  <!-- EU star ring: 12 dots -->
+  <circle cx="60" cy="8" r="2.6" fill="url(#gold)"/>
+  <circle cx="86" cy="15" r="2.6" fill="url(#gold)"/>
+  <circle cx="105" cy="34" r="2.6" fill="url(#gold)"/>
+  <circle cx="112" cy="60" r="2.6" fill="url(#gold)"/>
+  <circle cx="105" cy="86" r="2.6" fill="url(#gold)"/>
+  <circle cx="86" cy="105" r="2.6" fill="url(#gold)"/>
+  <circle cx="60" cy="112" r="2.6" fill="url(#gold)"/>
+  <circle cx="34" cy="105" r="2.6" fill="url(#gold)"/>
+  <circle cx="15" cy="86" r="2.6" fill="url(#gold)"/>
+  <circle cx="8" cy="60" r="2.6" fill="url(#gold)"/>
+  <circle cx="15" cy="34" r="2.6" fill="url(#gold)"/>
+  <circle cx="34" cy="15" r="2.6" fill="url(#gold)"/>
+
   <!-- modern rounded shield -->
-  <path d="M60 9 L103 26 V57 C103 89 84 105 60 111 C36 105 17 89 17 57 V26 Z"
+  <path d="M60 16 L96 30 V57 C96 85 80 99 60 104 C40 99 24 85 24 57 V30 Z"
         fill="url(#shield)" stroke="url(#gold)" stroke-width="2.5"/>
 
-  <!-- refined inner ring -->
-  <path d="M60 17 L95 30 V57 C95 84 79 98 60 103 C41 98 25 84 25 57 V30 Z"
-        fill="none" stroke="url(#gold)" stroke-opacity="0.28" stroke-width="1.2"/>
-
   <!-- centered NM monogram, modern geometric sans -->
-  <text x="60" y="58" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="40" font-weight="800"
+  <text x="60" y="60" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="38" font-weight="800"
         fill="url(#gold)" text-anchor="middle" letter-spacing="-2.5">NM</text>
 
   <!-- Croatia vibe: mountains + coast line as a grounded horizon -->
-  <path d="M27 82 L42 66 L54 78 L67 60 L80 76 L93 64"
-        fill="none" stroke="url(#gold)" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+  <path d="M32 84 L45 70 L56 80 L68 64 L80 78 L88 68"
+        fill="none" stroke="url(#gold)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
 </svg>
