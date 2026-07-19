@@ -1,14 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="NM Consultant">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#13314f"/>
-      <stop offset="100%" stop-color="#0b1a2f"/>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#163450"/>
+      <stop offset="100%" stop-color="#0a1726"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eccd80"/>
+      <stop offset="100%" stop-color="#c2922f"/>
     </linearGradient>
   </defs>
-  <!-- shield/peak mark -->
-  <path d="M60 6 L110 26 V60 C110 92 88 108 60 114 C32 108 10 92 10 60 V26 Z" fill="url(#g)" stroke="#d4a74a" stroke-width="3"/>
-  <!-- inner gold frame -->
-  <path d="M60 16 L100 32 V60 C100 86 82 99 60 104 C38 99 20 86 20 60 V32 Z" fill="none" stroke="#d4a74a" stroke-opacity="0.35" stroke-width="1.5"/>
-  <!-- NM monogram -->
-  <text x="60" y="74" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" fill="#d4a74a" text-anchor="middle" letter-spacing="-1">NM</text>
+
+  <!-- modern rounded shield -->
+  <path d="M60 9 L103 26 V57 C103 89 84 105 60 111 C36 105 17 89 17 57 V26 Z"
+        fill="url(#shield)" stroke="url(#gold)" stroke-width="2.5"/>
+
+  <!-- refined inner ring -->
+  <path d="M60 17 L95 30 V57 C95 84 79 98 60 103 C41 98 25 84 25 57 V30 Z"
+        fill="none" stroke="url(#gold)" stroke-opacity="0.28" stroke-width="1.2"/>
+
+  <!-- centered NM monogram, modern geometric sans -->
+  <text x="60" y="58" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="40" font-weight="800"
+        fill="url(#gold)" text-anchor="middle" letter-spacing="-2.5">NM</text>
+
+  <!-- Croatia vibe: mountains + coast line as a grounded horizon -->
+  <path d="M27 82 L42 66 L54 78 L67 60 L80 76 L93 64"
+        fill="none" stroke="url(#gold)" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
 </svg>
